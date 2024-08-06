@@ -53,6 +53,31 @@ let myObj = {
     const gameName = new String("GTA 5")
     console.log(gameName[0]);
     
+    console.log(gameName.length);
+     console.log(gameName.charAt(2));
+
+     console.log(gameName.indexOf('t'));
+
+     const newString = gameName.substring(0,4)
+
+     const anotherString = gameName.slice(-8,4)
+
+     console.log(anotherString);
+     
+    const newStringone = "   gautam   "
+    console.log(newStringone);
+
+    console.log(newStringone.trim());
+
+    const url = "https://www.google.com"
+    
+    //String ek baar aur and documentt se bhi padho
+    
+    
+    
+
+     
+    
     
 
     
