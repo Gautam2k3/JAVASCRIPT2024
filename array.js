@@ -51,4 +51,6 @@ const myn1 = myArr.slice(1, 3);
 //
 console.log("Vinita is my Maa");
 
-myArr.unshift(0);
+// myArr.unshift(0);
+
+const newArr2 = myArr.join();
