@@ -58,3 +58,10 @@ handleObject(user1); //calling of function. in braces thing call argument
 handleObject(user2);
 
 handleObject(user3);
+
+const myArray = [200, 300, 100, 600];
+
+function returnSecondValue(getArray) {
+  return getArray[1];
+}
+console.log(returnSecondValue(myArray));
